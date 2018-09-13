@@ -1,0 +1,15 @@
+<templateSet group="PHP">
+  <template name="testclass" value="?php&#10;&#10;namespace Tests\Feature;&#10;&#10;use Tests\TestCase;&#10;use Illuminate\Foundation\Testing\DatabaseMigrations;&#10;&#10;class $CLASS$ extends TestCase&#10;{&#10;    use DatabaseMigrations;&#10;    /** @test  */&#10;    public function it_$METHOD$()&#10;    {&#10;        $END$&#10;    }&#10;}" description="New Test Class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="newtest" value="/** @test */&#10;&#10;function a_$METHOD$ ()&#10;{&#10;    $END$&#10;}" description="newtest" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

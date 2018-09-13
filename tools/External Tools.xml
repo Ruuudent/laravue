@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="php" description="PHP7.1" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\bin\php.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/bin" />
+    </exec>
+  </tool>
+  <tool name="phpunit" description="phpunit" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\bin\phpunit.cmd" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/bin" />
+    </exec>
+  </tool>
+</toolSet>
